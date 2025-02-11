@@ -38,15 +38,13 @@
 
 ## ざっくりとした流れ
 
-Astroのチュートリアルでブログを作る
-https://docs.astro.build/ja/tutorial/0-introduction/
+- [Astroのチュートリアル](https://docs.astro.build/ja/tutorial/0-introduction/)
+でブログを作る
+  - [チュートリアルではNetlifyを使っているが、ここでGitHub Pagesへのデプロイもやっておく](https://docs.astro.build/ja/guides/deploy/github/)
 
-以下の記事を参考に、AstroサイトをGitHub Pagesへデプロイしてみる。
-https://docs.astro.build/ja/guides/deploy/github/
+- TypeScriptを導入して再度デプロイしてみる
 
-TypeScriptを導入して再度デプロイしてみる。
-
-コンテンツを拡充する。
+- コンテンツを拡充する
 
 ## 開発
 
