@@ -52,9 +52,7 @@
 
 ## デプロイ
 
-ハマりポイントがあれば。すんなりいけばその旨記載する。
-
-以下のエラーが出てデプロイに失敗した
+問題１：以下のエラーが出てデプロイに失敗した
 ```
 Current runner version: '2.322.0'
 Operating System
@@ -77,13 +75,15 @@ Error: This request has been automatically failed because it uses a deprecated v
 ```
 
 -> 非推奨のバージョンを使っているのがエラーの理由みたいだ。
-
-→同じエラーでデプロイに失敗した人がいた。修正ポイントは2点。
+-> 同じエラーでデプロイに失敗した人がいた。修正ポイントは2点。
  withastro/action@v1をv2へ、actions/deploy-pages@v1をv4へ
 　https://craftgear.github.io/posts/20250201/
 
 
 ## 全体的な振り返り
+
+## 気になっていること
+- mdファイルをhtmlへどのように変換しているのか
 
 ## 参考
 https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages
