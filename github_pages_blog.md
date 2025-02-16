@@ -82,6 +82,9 @@ Error: This request has been automatically failed because it uses a deprecated v
 
 ## 全体的な振り返り
 
+## 気になっていること
+- mdファイルをhtmlへどのように変換しているのか
+
 ## 参考
 https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages
 https://kakaku-techblog.com/entry/create-website-with-astro
